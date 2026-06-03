@@ -11,7 +11,7 @@ const showcaseProjects = [
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     color: 'from-sky-400 to-blue-600',
     emoji: '🦷',
-    liveUrl: '#', // Replace with Vercel URL after deployment
+    liveUrl: 'https://bsd-dental.vercel.app/', 
   },
   {
     title: 'Maison Étoile',
