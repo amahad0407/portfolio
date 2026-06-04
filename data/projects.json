@@ -4,50 +4,39 @@
     "name": "Maison Étoile",
     "description": "An unforgettable dining experience rooted in tradition, elevated by imagination.",
     "image": "/uploads/7b01c645-f6f4-450c-93ac-8b894afcb9ba.png",
-    "link": "http://localhost:3000",
-    "tags": [
-      "Restaurant"
-    ],
+    "link": "#",
+    "tags": ["Restaurant"],
     "createdAt": "2024-01-15T10:00:00.000Z",
-    "updatedAt": "2026-06-03T20:40:46.465Z"
+    "updatedAt": "2026-06-04T00:00:00.000Z"
   },
   {
     "id": "2",
     "name": "BSD Dental",
-    "description": "Premium dental care for the whole family — delivered with a gentle touch and the latest technology. Your comfort is our priority.\n\n",
+    "description": "Premium dental care for the whole family — delivered with a gentle touch and the latest technology. Your comfort is our priority.",
     "image": "/uploads/23148b31-780a-45bd-9464-6cb876ec3980.png",
     "link": "https://dental-demo-smoky.vercel.app/",
-    "tags": [
-      "Denstist",
-      "Health"
-    ],
+    "tags": ["Dentist", "Healthcare"],
     "createdAt": "2024-02-20T10:00:00.000Z",
-    "updatedAt": "2026-06-03T05:23:09.026Z"
+    "updatedAt": "2026-06-04T00:00:00.000Z"
   },
   {
     "id": "3",
     "name": "AirPro HVAC",
     "description": "Heating and cooling solutions for your home and business — delivered by licensed technicians with over 15 years of experience in the DMV area.",
     "image": "/uploads/19baf32c-168d-4209-9629-906ae5630af1.png",
-    "link": "http://localhost:3003",
-    "tags": [
-      "HVAC",
-      "Services"
-    ],
+    "link": "https://hvac-demo-blush.vercel.app/",
+    "tags": ["HVAC", "Services"],
     "createdAt": "2024-03-10T10:00:00.000Z",
-    "updatedAt": "2026-06-03T20:41:22.999Z"
+    "updatedAt": "2026-06-04T00:00:00.000Z"
   },
   {
     "id": "101a3c33-96ce-43b8-8155-252b6641ab29",
-    "name": "Luminrary Clean Co.",
+    "name": "Luminary Clean Co.",
     "description": "We transform every space into a spotless sanctuary. From meticulous residential cleaning to pristine commercial environments — we deliver white-glove service every time.",
     "image": "/uploads/44cc5b17-bfec-4a40-a1f6-9a198a5712c0.png",
     "link": "https://cleaning-demo-seven.vercel.app/",
-    "tags": [
-      "Small Business",
-      "Services"
-    ],
+    "tags": ["Small Business", "Services"],
     "createdAt": "2026-06-03T21:37:31.167Z",
-    "updatedAt": "2026-06-03T21:37:31.167Z"
+    "updatedAt": "2026-06-04T00:00:00.000Z"
   }
 ]

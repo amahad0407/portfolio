@@ -1,28 +1,33 @@
-/**
- * Data access layer — all reads/writes to data/projects.json go through here.
- * To switch to a database later, replace only the functions below.
- */
 import fs from 'fs'
 import path from 'path'
 import { Project, ProjectInput } from '@/types'
 
 const DATA_FILE = path.join(process.cwd(), 'data', 'projects.json')
 
-function ensureFile() {
-  if (!fs.existsSync(DATA_FILE)) {
+function safeRead(): Project[] {
+  try {
+    if (!fs.existsSync(DATA_FILE)) return []
+    return JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8')) as Project[]
+  } catch {
+    return []
+  }
+}
+
+function safeWrite(projects: Project[]): void {
+  try {
     fs.mkdirSync(path.dirname(DATA_FILE), { recursive: true })
-    fs.writeFileSync(DATA_FILE, '[]')
+    fs.writeFileSync(DATA_FILE, JSON.stringify(projects, null, 2))
+  } catch {
+    // Vercel's serverless filesystem is read-only — writes are no-ops in production
   }
 }
 
 export function readProjects(): Project[] {
-  ensureFile()
-  return JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8')) as Project[]
+  return safeRead()
 }
 
 export function writeProjects(projects: Project[]): void {
-  ensureFile()
-  fs.writeFileSync(DATA_FILE, JSON.stringify(projects, null, 2))
+  safeWrite(projects)
 }
 
 export function findById(id: string): Project | undefined {

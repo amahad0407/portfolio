@@ -29,7 +29,7 @@ const showcaseProjects = [
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     color: 'from-blue-500 to-indigo-700',
     emoji: '❄️',
-    liveUrl: '#',
+    liveUrl: 'https://hvac-demo-blush.vercel.app/',
   },
   {
     title: 'Luminary Clean Co.',
