@@ -94,23 +94,20 @@ export function ProjectsShowcase() {
                 </div>
 
                 {/* CTA */}
-                <a
-                  href={project.liveUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className={`flex items-center gap-2 text-sm font-semibold transition-colors ${
-                    project.liveUrl === '#'
-                      ? 'text-slate-400 dark:text-slate-500 cursor-not-allowed'
-                      : 'text-violet-600 dark:text-violet-400 hover:text-violet-800 dark:hover:text-violet-200'
-                  }`}
-                  onClick={project.liveUrl === '#' ? (e) => e.preventDefault() : undefined}
-                >
-                  {project.liveUrl === '#' ? (
-                    <><Globe className="w-4 h-4" /> Coming soon</>
-                  ) : (
-                    <><ExternalLink className="w-4 h-4" /> View Live Site</>
-                  )}
-                </a>
+                {project.liveUrl === '#' ? (
+                  <span className="flex items-center gap-2 text-sm font-semibold text-slate-400 dark:text-slate-500 cursor-not-allowed">
+                    <Globe className="w-4 h-4" /> Coming soon
+                  </span>
+                ) : (
+                  <a
+                    href={project.liveUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-sm font-semibold text-violet-600 dark:text-violet-400 hover:text-violet-800 dark:hover:text-violet-200 transition-colors"
+                  >
+                    <ExternalLink className="w-4 h-4" /> View Live Site
+                  </a>
+                )}
               </div>
             </div>
           ))}
