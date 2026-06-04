@@ -20,7 +20,7 @@ const showcaseProjects = [
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     color: 'from-amber-500 to-yellow-700',
     emoji: '🍽️',
-    liveUrl: '#',
+    liveUrl: 'https://restaurant-demo-smoky-phi.vercel.app/',
   },
   {
     title: 'AirPro HVAC',

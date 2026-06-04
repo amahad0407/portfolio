@@ -4,7 +4,7 @@
     "name": "Maison Étoile",
     "description": "An unforgettable dining experience rooted in tradition, elevated by imagination.",
     "image": "/uploads/7b01c645-f6f4-450c-93ac-8b894afcb9ba.png",
-    "link": "#",
+    "link": "https://restaurant-demo-smoky-phi.vercel.app/",
     "tags": ["Restaurant"],
     "createdAt": "2024-01-15T10:00:00.000Z",
     "updatedAt": "2026-06-04T00:00:00.000Z"
