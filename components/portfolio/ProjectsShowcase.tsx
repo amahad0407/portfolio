@@ -38,7 +38,7 @@ const showcaseProjects = [
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
     color: 'from-yellow-500 to-amber-700',
     emoji: '✨',
-    liveUrl: '#',
+    liveUrl: 'https://cleaning-demo-seven.vercel.app/',
   },
 ]
 

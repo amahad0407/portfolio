@@ -42,7 +42,7 @@
     "name": "Luminrary Clean Co.",
     "description": "We transform every space into a spotless sanctuary. From meticulous residential cleaning to pristine commercial environments — we deliver white-glove service every time.",
     "image": "/uploads/44cc5b17-bfec-4a40-a1f6-9a198a5712c0.png",
-    "link": "http://localhost:3007",
+    "link": "https://cleaning-demo-seven.vercel.app/",
     "tags": [
       "Small Business",
       "Services"
