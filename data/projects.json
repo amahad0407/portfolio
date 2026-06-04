@@ -16,7 +16,7 @@
     "name": "BSD Dental",
     "description": "Premium dental care for the whole family — delivered with a gentle touch and the latest technology. Your comfort is our priority.\n\n",
     "image": "/uploads/23148b31-780a-45bd-9464-6cb876ec3980.png",
-    "link": "http://localhost:3002",
+    "link": "https://dental-demo-smoky.vercel.app/",
     "tags": [
       "Denstist",
       "Health"
